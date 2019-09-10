@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    
+    <!-- HOW TO link the sigh up to another page ?-->
+    <!-- form with action & method -->
+
+    <form action="thankyou.html" method="GET">
+      <h1>Course Sigh Up Page</h1>
+      <p>Please Note: First Name, Last Name, Password, and Email are required</p>
+
+
+      <label for="fname">First Name:</label>
+      <input id="fname" type="text" name="" placeholder="First Name"required>
+
+      <label for="lname">Last Name:</label>
+      <input id="lname" type="text" name="" placeholder="Last Name"required>
+
+      <p></p>
+
+      <label for="mail">Email:</label>
+      <input id="mail" type="email" name="" placeholder="name@email.com"required>
+
+      <label for="pass">Password:</label>
+      <input type="password" name="" value=""required>
+
+      <p>Are you over the age of 18?</p>
+      <label for="y">Yes</label>
+      <input id="y"type="radio" name="ages" value="">
+
+      <label for="n">No</label>
+      <input id="n"type="radio" name="ages" value="">
+
+      <p>Do you have a Credit Card or PayPal?</p>
+
+      <select name="payment">
+        <option value="CC">Credit Card</option>
+        <option value="PP">PayPal</option>
+      </select>
+
+      <p></p>
+
+      <input type="submit" name="" value="SIGN UP">
+
+    </form>
+
+  </body>
+</html>
